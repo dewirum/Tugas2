@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:background="@color/colorAccent"
+             tools:context=".FirstFragment">
+    <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="about me" />
+    <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            app:cardElevation="7dp"
+            app:cardCornerRadius="15dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Nama Lengkap : "/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="NPM : "/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Kelas : "/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Asal : "/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Email : "/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Siti Dewi Rohmanah"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="16670081"/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="6A INFORMATIKA "/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Kendal "/>
+                <TextView android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:text="Rummanah349@gmail.com "/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="102dp"
+                      android:layout_gravity="center">
+
+            <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/rum"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>
